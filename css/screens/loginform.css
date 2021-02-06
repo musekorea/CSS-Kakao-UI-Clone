@@ -1,0 +1,44 @@
+/*index page form part*/
+.login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px;
+}
+.login-form input {
+  padding: 20px 0;
+  font-size: 19px;
+  border: none;
+  margin-bottom: 15px;
+}
+.login-form input::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+.login-form input:not([type="submit"]) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-left: 3px;
+  transition: border-bottom-color 0.5s ease-in-out;
+}
+.login-form input:focus {
+  border-bottom-color: rgba(250, 128, 114, 0.493);
+}
+.login-form input:hover {
+  background: #fae10010;
+  box-shadow: 7px 5px 5px #bdc1920e;
+}
+
+.login-form input[type="submit"] {
+  background-color: var(--kakaoyellow);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+.login-form input[type="submit"]:hover {
+  color: tomato;
+}
+.login-form a {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  opacity: 0.7;
+  font-size: 13px;
+}

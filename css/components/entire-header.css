@@ -1,0 +1,16 @@
+.entire-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 17px;
+  margin: 10px 0;
+  align-items: center;
+}
+
+.entire-header__title {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.entire-header__icon span {
+  margin: 0 5px;
+}

@@ -1,0 +1,38 @@
+/*body {
+  height: 1000vh;
+}
+*/
+
+.nav__link {
+  font-size: 30px;
+}
+.nav {
+  background-color: rgba(0, 0, 0, 0.04);
+  padding: 20px 40px 0px 40px;
+  border-top: solid 1px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.nav__ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__notification {
+  position: relative;
+  top: -36px;
+  left: 20px;
+  font-size: 15px;
+}
+
+.ellipsis__point {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: tomato;
+  position: relative;
+  top: -32px;
+  left: 30px;
+}

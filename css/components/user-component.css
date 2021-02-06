@@ -1,0 +1,27 @@
+/*user-component-Big*/
+.user-component {
+  display: flex;
+  align-items: center;
+  margin-left: 17px;
+  margin-bottom: 4px;
+}
+
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+.user-component__avatar {
+  height: 60px;
+  width: 60px;
+  border-radius: 30%;
+  margin-right: 15px;
+}
+.user-component__name {
+  font-weight: 600;
+  font-size: 17px;
+}
+.user-component__subtile {
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 5px;
+  font-size: 17px;
+}

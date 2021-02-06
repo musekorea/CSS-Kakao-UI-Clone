@@ -1,0 +1,67 @@
+.friend-noti {
+  background-color: rgba(0, 0, 0, 0.03);
+  text-align: center;
+  padding: 9px;
+  margin-bottom: 8px;
+}
+
+.friend-noti i {
+  color: rgba(0, 0, 0, 0.15);
+  padding: 0 8px;
+}
+
+/*friends-channel*/
+.friends-main {
+  padding: 5px 17px 0px 17px;
+}
+.friend-channel {
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 0px;
+  color: rgba(0, 0, 0, 0.5);
+  border-top: solid 1.5px rgba(0, 0, 0, 0.1);
+  font-size: 13px;
+}
+/*user-component-middle*/
+.user-component-middle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.user-component__column-middle:first-child {
+  display: flex;
+  align-items: center;
+}
+.user-component__avatar-middle {
+  height: 50px;
+  width: 50px;
+  border-radius: 30%;
+  margin-right: 15px;
+}
+
+.user-component__name-middle {
+  font-weight: 550;
+  font-size: 16px;
+}
+.user-component__subtile-middle {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 13px;
+  margin-top: 5px;
+}
+.user-component__column-middle2 {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.friends-list {
+  padding: 0px 17px;
+}
+.friend-channel2 {
+  padding: 10px 0;
+  border-top: solid 1.5px rgba(0, 0, 0, 0.1);
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.5);
+}
