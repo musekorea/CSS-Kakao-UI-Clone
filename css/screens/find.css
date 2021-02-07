@@ -1,0 +1,118 @@
+.find-main {
+  padding: 17px;
+}
+.entire-header__icon {
+  display: flex;
+}
+
+.cog-find-noti {
+  background-color: tomato;
+  border: 1px solid tomato;
+  width: 1.5px;
+  height: 1.5px;
+  border-radius: 50%;
+  position: relative;
+  top: -3px;
+  left: -5px;
+}
+/* find icon part */
+.find-icons {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.find-icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.find-icons__icon {
+  font-size: 30px;
+}
+.find-icons__icon span {
+  margin-top: 15px;
+  font-size: 13px;
+}
+.find-recommend-friends {
+  border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+}
+.find-recommend-friends-top {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.user-component-middle {
+  margin-top: 15px;
+}
+
+/* open chatting*/
+
+.open-chatting__header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  color: rgba(0, 0, 0, 0.4);
+  margin: 15px 0 0 0;
+}
+.open-chatting-content {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+  padding-top: 15px;
+}
+.open-chatting-image {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.open-chatting-content__right__image {
+  width: 80px;
+  height: 80px;
+  border-radius: 10%;
+}
+
+.open-chatting-content__left__h3,
+.open-chatting-content__left__h4,
+.open-chatting-content__left__id {
+  margin-top: 8px;
+  color: rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  font-size: 15px;
+}
+.open-chatting-content__left__id {
+  display: flex;
+  align-items: center;
+}
+.open-chatting-content__left__h3 {
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 600;
+  font-size: 17px;
+}
+.open-chatting-content__left__id__span2 {
+  color: hotpink;
+  margin-left: 5px;
+  padding-left: 5px;
+  border-left: 1px solid rgba(0, 0, 0, 0.3);
+}
+.open-chatting-content__right {
+  display: flex;
+  flex-direction: column;
+}
+.open-chatting-content__right__heart {
+  color: white;
+  font-size: 12px;
+  border: solid 1px rgba(0, 0, 0, 0.4);
+  border-radius: 35% 35% 35% 35%;
+  padding: 2px 1px;
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 10px;
+  width: 40px;
+  text-align: center;
+  position: relative;
+  left: 30px;
+  bottom: 22px;
+}
