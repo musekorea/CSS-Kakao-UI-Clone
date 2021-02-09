@@ -8,6 +8,7 @@
 @import url("components/navbar.css");
 @import url("components/user-component.css");
 @import url("components/badge.css");
+@import url("components/icon-group.css");
 
 /* Screens Folder */
 @import url("screens/welcomeheader.css");
@@ -15,6 +16,7 @@
 @import url("screens/friends.css");
 @import url("screens/chats.css");
 @import url("screens/find.css");
+@import url("screens/more.css");
 
 body {
   color: rgba(0, 0, 0, 0.8);

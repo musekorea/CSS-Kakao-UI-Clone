@@ -1,0 +1,20 @@
+/* icon group component*/
+.find-icons {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.find-icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.find-icons__icon {
+  font-size: 30px;
+}
+.find-icons__icon span {
+  margin-top: 15px;
+  font-size: 13px;
+}
