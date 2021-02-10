@@ -17,6 +17,8 @@
 @import url("screens/chats.css");
 @import url("screens/find.css");
 @import url("screens/more.css");
+@import url("screens/settings.css");
+@import url("screens/chatting.css");
 
 body {
   color: rgba(0, 0, 0, 0.8);

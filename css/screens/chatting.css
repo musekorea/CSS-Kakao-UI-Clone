@@ -1,0 +1,32 @@
+#chatting-body {
+  background-color: #abc1d1;
+}
+
+.setting-main {
+  padding: 5px 17px;
+}
+.setting-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+.setting-header :first-child {
+  margin-right: auto;
+}
+.setting-header :last-child {
+  margin-left: auto;
+}
+.fa-angle-left {
+  font-size: 23px;
+}
+.setting-header h1 {
+  font-size: 21px;
+  font-weight: 600;
+}
+.hamburger {
+  width: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

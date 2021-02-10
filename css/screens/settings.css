@@ -1,0 +1,72 @@
+.setting-main {
+  padding: 5px 17px;
+}
+.setting-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+.setting-header :first-child {
+  margin-right: auto;
+}
+.setting-header :last-child {
+  margin-left: auto;
+}
+.fa-angle-left {
+  font-size: 23px;
+}
+.setting-header h1 {
+  font-size: 21px;
+  font-weight: 600;
+}
+.listup {
+  display: flex;
+  flex-direction: column;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+.listup-box {
+  margin-bottom: 25px;
+  display: flex;
+}
+.listup i {
+  opacity: 0.8;
+  margin-right: 10px;
+  font-size: 20px;
+}
+.listup-box3 {
+  display: flex;
+  justify-items: self-end;
+}
+.listup-box3 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.listup-box__span {
+  opacity: 0.7;
+}
+.listup-finalbox {
+  margin-bottom: 30px;
+}
+/*list bottom*/
+.listbottom li {
+  margin-bottom: 25px;
+}
+.listbottom i {
+  margin-right: 10px;
+  opacity: 0.9;
+  font-size: 20px;
+}
+.listbottom-li {
+  display: flex;
+}
+.listbottom-testdiv {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.listbottom-testspan {
+  opacity: 0.7;
+}
