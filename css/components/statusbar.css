@@ -1,16 +1,11 @@
-/*fixed test
-body {
-  display: flex;
-  flex-direction: column;
-}
-*/
+
 
 .status-bar {
   display: flex;
   justify-content: center;
   padding: 5px 3px;
-  /* fixed test
-  position: fixed;
+  position: sticky;
+  top:0px;
   width: 100%;
   box-sizing: border-box;
   */

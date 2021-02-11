@@ -10,7 +10,7 @@
 
 <body id="chatting-body">
 <!--status-bar-->
-  <div class="status-bar">
+  <div class="status-bar chatting-status-bar">
     <div class="status-bar__column">
       <span>No Service</span>
       <i class="fas fa-wifi"></i>
@@ -25,32 +25,45 @@
       <i class="fas fa-bolt"></i>
     </div>
   </div>
-
+<!--header-->
 <main class="setting-main">
-
-  <div class="setting-header">
+  <div class="setting-header chatting-header">
    <a href="chats.html"> <i class="fas fa-angle-left "></i></a>
-  <h1>Chatting</h1>
+  <h1>리나</h1>
   <div class="hamburger">
   <i class="fas fa-search"></i>
   <i class="fas fa-bars"></i>
   </div>
   </div>
-
- 
-
-
-
-
-
 </main>
+<!--content-->
+<main class="setting-main chatting-main">
+   <div class="chat-time">
+     Tueseday, February, 12, 2021
+   </div>
 
+   <section class="chat-send">
+     <img src="picture/lina.jpg" alt="mypicture">
+     <div chat-send-right>
+       <h4>리나</h4>
+       <div class="chat-send-insidebox">
+       <span class="send-bubble">Hi!</span>
+       <span class="chat-send-time">21:27</span>
+       </div>
+     </div>
+   </section>
 
+   <section class="chat-send chat-send-own" >
+     <div chat-send-right>
+      <h4>정유현</h4>
+      <div class="chat-send-insidebox chat-send-reverse">
+       <span class="send-bubble send-bubble-own">What's up?</span>
+       <span class="chat-send-time">21:27</span>
+       </div>
+    </div>
+  </section>
 
+  </main>
 
-
-  
-
-
-    </body>
+</body>
 </html>
