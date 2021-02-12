@@ -104,3 +104,52 @@
 .chat-send-reverse {
   flex-direction: row-reverse;
 }
+
+/*reply */
+.reply-container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  position: fixed;
+  bottom: 5px;
+  width: 100%;
+}
+.reply-container input {
+  width: 100%;
+  border-radius: 20px;
+  border: none;
+  padding: 8px;
+  margin: 5px 0;
+  background-color: rgba(128, 128, 128, 0.062);
+  border: 1px solid rgba(128, 128, 128, 0.233);
+}
+.reply-container :first-child {
+  font-size: 20px;
+  opacity: 0.7;
+  margin: 0 7px;
+}
+.reply-inside-box {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  position: absolute;
+  right: 6px;
+}
+.arrowup {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  background-color: var(--kakaoyellow);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  position: relative;
+}
+.uparrow {
+  color: black;
+  position: relative;
+  right: 1.5px;
+}
+input::placeholder {
+  opacity: 0.4;
+}
