@@ -39,7 +39,7 @@
 .welcome-header__title {
   margin-bottom: 20px;
   font-size: 27px;
-  animation: slideExpandUp 1.6s ease-out;
+  animation: slideExpandUp 1.6s ease-out forwards;
 }
 
 .welcome-header__text {

@@ -14,3 +14,14 @@
 .entire-header__icon span {
   margin: 0 5px;
 }
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+a[href="setting.html"] :hover {
+  animation: rotateCog 2s linear infinite;
+}

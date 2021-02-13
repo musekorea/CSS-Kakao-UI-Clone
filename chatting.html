@@ -12,11 +12,11 @@
 <!--status-bar-->
   <div class="status-bar chatting-status-bar">
     <div class="status-bar__column">
-      <span>No Service</span>
+      <span>中国移动</span>
       <i class="fas fa-wifi"></i>
     </div>
-    <div class="status-bar__column">
-      <span>18:43</span>
+    <div class="status-bar__column js-clock">
+      <span class="realtime">18:43</span>
     </div>
     <div class="status-bar__column">
       <i class="fas fa-lock"></i>
@@ -25,6 +25,7 @@
       <i class="fas fa-bolt"></i>
     </div>
   </div>
+  
 <!--header-->
 <main class="setting-main">
   <div class="setting-header chatting-header">
@@ -65,14 +66,16 @@
 </main>
 <!--message input-->
 <section class="reply-container">
+ 
   <i style="opacity:0.4" class="far fa-plus-square"></i>
   <input type="text" placeholder="Write a message...">
+  
   <div class="reply-inside-box">
      <i style="opacity: 0.3" class="far fa-smile-beam smile"></i>
     <div class="arrowup" ><i style="font-size:16px" class="uparrow fas fa-arrow-up"></i></div>
   </div>
 
 </section>
-
+<script src="clock.js"></script>
 </body>
 </html>
