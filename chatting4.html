@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/style.css">  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatting Page </title>
+  <script defer src="https://kit.fontawesome.com/8b5a5cb437.js" crossorigin="anonymous"></script>
+  </head>
+
+<body id="chatting-body">
+<!--status-bar-->
+  <div class="status-bar chatting-status-bar">
+    <div class="status-bar__column">
+      <span>中国移动</span>
+      <i class="fas fa-wifi"></i>
+    </div>
+    <div class="status-bar__column js-clock">
+      <span class="realtime">18:43</span>
+    </div>
+    <div class="status-bar__column">
+      <i class="fas fa-lock"></i>
+      <span>49%</span>
+      <i class="fas fa-battery-half"></i>
+      <i class="fas fa-bolt"></i>
+    </div>
+  </div>
+  
+<!--header-->
+<main class="setting-main">
+  <div class="setting-header chatting-header">
+   <a href="chats.html"> <i class="fas fa-angle-left "></i></a>
+  <h1>Moya</h1>
+  <div class="hamburger">
+  <i class="fas fa-search"></i>
+  <i class="fas fa-bars"></i>
+  </div>
+  </div>
+</main>
+<!--content-->
+<main class="setting-main chatting-main">
+   <div class="chat-time">
+     Tueseday, February, 12, 2021
+   </div>
+
+   <section class="chat-send">
+     <img src="picture/moya.jpg" alt="moya">
+     <div chat-send-right>
+       <h4>Ms.Yu</h4>
+       <div class="chat-send-insidebox">
+       <span class="send-bubble">有空吗？</span>
+       <span class="chat-send-time">21:27</span>
+       </div>
+     </div>
+   </section>
+
+   <section class="chat-send chat-send-own" >
+     <div chat-send-right>
+      <h4>정유현</h4>
+      <div class="chat-send-insidebox chat-send-reverse">
+       <span class="send-bubble send-bubble-own">Plz...</span>
+       <span class="chat-send-time">21:27</span>
+       </div>
+    </div>
+  </section>
+</main>
+<!--message input-->
+<section class="reply-container">
+ 
+  <i style="opacity:0.4" class="far fa-plus-square"></i>
+  <input type="text" placeholder="Write a message...">
+  
+  <div class="reply-inside-box">
+     <i style="opacity: 0.3" class="far fa-smile-beam smile"></i>
+    <div class="arrowup" ><i style="font-size:16px" class="uparrow fas fa-arrow-up"></i></div>
+  </div>
+
+</section>
+<script src="clock.js"></script>
+</body>
+</html>
