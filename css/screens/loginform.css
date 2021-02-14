@@ -119,4 +119,5 @@
 h3 span {
   color: tomato;
   animation: heartBeat 1s infinite;
+  will-change: transform;
 }
