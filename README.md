@@ -1,3 +1,3 @@
 # kakao-clone-2021
-Study HTML, CSS
+HTML, CSS Studyung
 Cloning a korean messenger UI
