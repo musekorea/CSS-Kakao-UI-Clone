@@ -1,5 +1,8 @@
-# kakao-clone-2021
-HTML, CSS Studying in 2021.02<br>
-Cloning a korean messenger UI
----
-mark down
+### Kakao Chat UI Clone
+
+🧶 Features
+ - HTML, CSS, Vanilla Javascript 
+ - Chat function not implemented
+ - UI clone only
+
+
